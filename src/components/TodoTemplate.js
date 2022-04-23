@@ -1,5 +1,5 @@
 import React from "react";
-import ".TodoTemplate.scss";
+import "./TodoTemplate.scss";
 
 // 화면 가운데로 정렬, 앱 타이틀을 보여준다.
 // children 으로 내부 JSX를 props로 받아와서
