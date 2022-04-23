@@ -33,7 +33,7 @@ function App() {
       }
       setTodos((prev) => prev.concat(todo));
       nextId.current += 1;
-    }, [todos]);
+  }, []);
 
   const onRemove = React.useCallback((id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
